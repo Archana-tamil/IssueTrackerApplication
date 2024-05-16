@@ -1,0 +1,23 @@
+<div class="container d-flex justify-content-center align-items-center ">
+  <div class="project-details-container">
+      <h3 class="display-4 text-center mb-4">
+          Project: <%= project.name %>
+      </h3>
+      <div class="row">
+          <div class="col-lg-12">
+              <div class="card border-2 shadow p-3 mb-5 bg-light rounded w-75">
+                  <div class="card-body">
+                      <h4 class="card-title mb-4">Details</h4>
+                      <p class="card-text">
+                          <span class="fw-bold">Author:</span> <%= project.author %>
+                      </p>
+                      <p class="card-text">
+                          <span class="fw-bold">Description:</span> <%= project.description %>
+                      </p>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+</div>
+<%-include("./issues"); %>

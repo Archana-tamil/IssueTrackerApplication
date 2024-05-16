@@ -1,0 +1,22 @@
+.project-details-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 30px;
+}
+
+.card {
+    transition: all 0.3s ease-in-out;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.card-title {
+    color: #333;
+}
+
+.card-text {
+    color: #666;
+}
